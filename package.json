@@ -1,0 +1,23 @@
+{
+    "name": "id-card-exporter",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "electron ./dist/index.js --dev",
+        "compile": "tsc --watch"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.19.2",
+        "jquery": "^3.4.1"
+    },
+    "devDependencies": {
+        "@types/jquery": "^3.3.33",
+        "@types/node": "12.12.28",
+        "electron": "^8.0.1",
+        "typescript": "^3.7.5"
+    }
+}

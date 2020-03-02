@@ -1,0 +1,24 @@
+* {
+    box-sizing: content-box;
+}
+
+html,
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #555;
+    color: white;
+}
+
+.wp-200 {
+    width: 200px;
+}
+
+.wp-0 {
+    width: 1px;
+}
+
+.hp-0 {
+    width: 1px;
+}
